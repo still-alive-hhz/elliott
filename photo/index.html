@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photo | Elliott</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <script src="/assets/header.js"></script>
+    <main class="photo-landing">
+      <section class="photo-hero">
+        <p class="kicker">Elliott Photography</p>
+        <div class="hero-quote" id="hero-quote">
+          <h1 class="hero-quote-en" id="hero-quote-en"></h1>
+          <p class="hero-quote-zh" id="hero-quote-zh"></p>
+        </div>
+      </section>
+      <section class="photo-tiles" aria-label="摄影入口">
+        <a class="photo-tile photo-tile-all" href="/photo/all/">
+          <img class="tile-bg-img" id="tile-bg-all" alt="">
+          <span class="tile-index">01</span>
+          <span class="tile-title">全部照片</span>
+          <span class="tile-subtitle">All photographs</span>
+          <span class="tile-stat" id="all-count"></span>
+        </a>
+        <a class="photo-tile photo-tile-collections" href="/photo/collections/">
+          <span class="tile-index">02</span>
+          <span class="tile-title">摄影集</span>
+          <span class="tile-subtitle">Selected collections</span>
+          <span class="tile-stat" id="collection-count"></span>
+        </a>
+      </section>
+    </main>
+
+    <script src="/assets/photo-data.js"></script>
+    <script>
+      (function () {
+        var items = window.PHOTO_ITEMS || [];
+        var allCount = document.querySelector("#all-count");
+        var colCount = document.querySelector("#collection-count");
+        if (allCount) allCount.textContent = items.length + " 张";
+        if (colCount) {
+          var cols = new Set(items.map(function (p) { return p.collection; }).filter(Boolean));
+          colCount.textContent = cols.size + " 个系列";
+        }
+
+        var quotes = [
+          { en: "Die Luft der Freiheit weht.",       zh: "自由之风永远吹拂" },
+          { en: "Fiat Lux.",                          zh: "要有光" },
+          { en: "Turn on, tune in, drop out.",        zh: "觉醒，融入，超脱" },
+          { en: "Why join the navy if you can be a pirate.", zh: "能当海盗，何必从军" },
+          { en: "Amor Fati.",                         zh: "爱命运" },
+          { en: "Memento Mori.",                      zh: "勿忘你终有一死" },
+          { en: "Stay hungry, stay foolish.",          zh: "求知若饥，虚心若愚" },
+          { en: "Verweile doch, du bist so schön.",    zh: "你真美啊，请停一停" }
+        ];
+        var q = quotes[Math.floor(Math.random() * quotes.length)];
+        document.getElementById("hero-quote-en").textContent = q.en;
+        document.getElementById("hero-quote-zh").textContent = q.zh;
+
+        /* ---- rotating tile background ---- */
+
+        var tileBg = document.getElementById("tile-bg-all");
+        if (!tileBg || !items.length) return;
+
+        var images = items.map(function (p) { return p.image; });
+        var current = -1;
+        var fading = false;
+
+        function pickNext() {
+          var next;
+          do { next = Math.floor(Math.random() * images.length); }
+          while (next === current && images.length > 1);
+          return next;
+        }
+
+        function setBg() {
+          current = pickNext();
+          tileBg.src = images[current];
+        }
+
+        function cycleBg() {
+          if (fading) return;
+          fading = true;
+          tileBg.style.opacity = "0";
+          setTimeout(function () {
+            current = pickNext();
+            tileBg.src = images[current];
+            tileBg.style.opacity = "1";
+            fading = false;
+          }, 800);
+        }
+
+        setBg();
+        setInterval(cycleBg, 6000);
+      })();
+    </script>
+  </body>
+</html>

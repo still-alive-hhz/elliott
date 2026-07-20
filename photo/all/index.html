@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>全部照片 | Elliott</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <script src="/assets/header.js"></script>
+    <main class="all-page">
+      <section class="page-title">
+        <p class="kicker">Photo Archive</p>
+        <h1>全部照片</h1>
+        <p class="page-intro">以地点、月份与时间顺序整理的摄影档案。</p>
+      </section>
+
+      <section class="filter-bar" aria-label="照片筛选">
+        <div id="location-filters">
+          <label data-level="country" hidden>
+            <span>国家</span>
+            <select id="loc-country"><option value="">不限</option></select>
+          </label>
+          <label data-level="province" hidden>
+            <span>省份</span>
+            <select id="loc-province"><option value="">不限</option></select>
+          </label>
+          <label data-level="city" hidden>
+            <span>城市</span>
+            <select id="loc-city"><option value="">不限</option></select>
+          </label>
+          <label data-level="district" hidden>
+            <span>区县</span>
+            <select id="loc-district"><option value="">不限</option></select>
+          </label>
+        </div>
+        <label>
+          <span>按时间</span>
+            <select id="month-filter">
+            <option value="">不限</option>
+          </select>
+        </label>
+        <label>
+          <span>按时序</span>
+          <select id="order-filter">
+            <option value="newest" selected>最新</option>
+            <option value="oldest">最旧</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="result-line" aria-live="polite">
+        <span>Archive selection</span>
+        <span id="result-count">0 张照片</span>
+      </section>
+
+      <section id="photo-grid" class="photo-grid" aria-label="照片列表"></section>
+      <p id="empty-state" class="empty-state" hidden>没有符合当前条件的照片。</p>
+    </main>
+
+    <script src="/assets/exif-reader.js"></script>
+    <script src="/assets/photo-data.js"></script>
+    <script src="/assets/lightbox.js"></script>
+    <script src="/assets/photo-all.js"></script>
+  </body>
+</html>
