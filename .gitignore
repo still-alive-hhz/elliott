@@ -1,4 +1,7 @@
-.DS_Store
+node_modules/
+.git/
+.gitignore
+.gitattributes
+scripts/
 assets/photo/*.jpg
 assets/photo/*.JPG
-assets/photo/*.jpeg
