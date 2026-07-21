@@ -138,7 +138,7 @@ nav a.is-active {
   margin: 0;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(48px, 6vw, 96px);
+  font-size: clamp(44px, 5.5vw, 88px);
   font-weight: 400;
   line-height: 1.15;
 }
