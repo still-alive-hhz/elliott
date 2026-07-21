@@ -349,8 +349,8 @@ select {
   overflow: hidden;
   border-bottom: 1px solid var(--line-soft);
   background: transparent;
+  cursor: pointer;
 }
-
 .photo-card img {
   display: block;
   width: 100%;
@@ -673,8 +673,4 @@ select {
 
 .lightbox-close:hover {
   background: rgba(255, 255, 255, 0.22);
-}
-
-.photo-card img {
-  cursor: pointer;
 }
