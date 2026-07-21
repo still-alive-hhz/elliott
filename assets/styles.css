@@ -131,15 +131,15 @@ nav a.is-active {
 }
 
 .hero-quote {
-  max-width: 720px;
+  max-width: 1400px;
 }
 
 .hero-quote-en {
   margin: 0;
-  max-width: 980px;
+  max-width: 90vw;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(44px, 7vw, 100px);
+  font-size: clamp(32px, 3.2vw, 56px);
   font-weight: 400;
   line-height: 1.15;
 }
@@ -580,7 +580,7 @@ select {
   }
 
   .hero-quote-en {
-    font-size: clamp(36px, 12vw, 56px);
+    font-size: clamp(28px, 9vw, 40px);
   }
 
   .photo-tile {
