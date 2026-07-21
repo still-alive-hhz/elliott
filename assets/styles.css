@@ -241,12 +241,11 @@ nav a.is-active {
 }
 
 .tile-tag {
-  display: block;
-  margin-top: 6px;
   color: var(--dim);
   font-family: var(--sans);
   font-size: clamp(11px, 1.2vw, 14px);
   letter-spacing: 0.1em;
+  margin-left: 2px;
 }
 
 .tile-subtitle {
