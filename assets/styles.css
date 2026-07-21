@@ -8,7 +8,7 @@
   --line: rgba(246, 241, 232, 0.16);
   --line-soft: rgba(246, 241, 232, 0.08);
   --panel: rgba(246, 241, 232, 0.045);
-  --serif: Didot, "Bodoni 72", "Times New Roman", "Songti SC", STSong, "Noto Serif CJK SC", serif;
+  --serif: "Songti SC", "Noto Serif CJK SC", STSong, Didot, "Bodoni 72", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 }
 
