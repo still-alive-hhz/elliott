@@ -22,28 +22,9 @@
   /* ---- determine visible levels ---- */
 
   function getVisibleLevels() {
-    var startIdx = levels.length;
-    for (var i = 0; i < levels.length; i++) {
-      var vals = dedup(getLocationValues(items, levels[i]));
-      if (vals.length > 1) {
-        startIdx = i;
-        break;
-      }
-    }
-    if (startIdx > 0) startIdx--;
-
-    var visible = levels.slice(startIdx).filter(function (level) {
+    return levels.filter(function (level) {
       return items.some(function (p) { return !!getLocationValue(p, level); });
     });
-
-    while (visible.length < 2 && startIdx > 0) {
-      startIdx--;
-      visible = levels.slice(startIdx).filter(function (level) {
-        return items.some(function (p) { return !!getLocationValue(p, level); });
-      });
-    }
-
-    return visible;
   }
 
   var visibleLevels = getVisibleLevels();
@@ -133,6 +114,22 @@
       }
       render();
     });
+  });
+
+  /* ---- auto-select single-option levels ---- */
+
+  visibleLevels.forEach(function (level) {
+    var sel = locSelects[level];
+    // If exactly 1 real option + "不限", auto-select it and cascade
+    if (sel.options.length === 2 && sel.options[1].value) {
+      sel.value = sel.options[1].value;
+      // Cascade to children
+      var idx = visibleIdx[level];
+      for (var j = idx + 1; j < visibleLevels.length; j++) {
+        locSelects[visibleLevels[j]].value = "";
+        populateSelect(visibleLevels[j]);
+      }
+    }
   });
 
   /* ---- populate other filters ---- */
