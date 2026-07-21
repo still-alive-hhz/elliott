@@ -1097,6 +1097,30 @@ window.PHOTO_ITEMS = [
     }
   },
   {
+    id: "others-summer-song-01",
+    title: "",
+    fullImage: "/assets/photo/others/summer_song/A9A44FB35234E21B8778D80D3A980D61.jpg",
+    image: "/assets/photo/thumbs/others_summer_song_01.webp",
+    month: "2026-05",
+    date: "2026-05-04",
+    collection: "",
+    author: "夏の歌",
+    location: {
+      country: "中国",
+      province: "陕西省",
+      city: "汉中市",
+      district: "洋县",
+    },
+    fallbackMeta: {
+      camera: "HUAWEI HMA-AL00",
+      aperture: "f/2.4",
+      shutter: "1/2000s",
+      iso: "ISO 50",
+      focalLength: "54mm",
+      takenAt: "2026:05:04 11:30:47",
+    }
+  },
+  {
     id: "2026-05-03-cgx-20260503-dsc06710",
     title: "",
     fullImage: "/assets/photo/2026-05-03_cgx_20260503-DSC06710.jpg",
