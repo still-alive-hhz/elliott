@@ -879,6 +879,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-23",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -903,6 +904,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-23",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -927,6 +929,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-23",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -951,6 +954,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-16",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -975,6 +979,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-16",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -999,6 +1004,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1023,6 +1029,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1047,6 +1054,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1071,6 +1079,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1095,6 +1104,7 @@ window.PHOTO_ITEMS = [
     month: "2026-05",
     date: "2026-05-03",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1407,6 +1417,7 @@ window.PHOTO_ITEMS = [
     month: "2026-04",
     date: "2026-04-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1431,6 +1442,7 @@ window.PHOTO_ITEMS = [
     month: "2026-04",
     date: "2026-04-04",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1455,6 +1467,7 @@ window.PHOTO_ITEMS = [
     month: "2026-03",
     date: "2026-03-28",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1479,6 +1492,7 @@ window.PHOTO_ITEMS = [
     month: "2026-03",
     date: "2026-03-28",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1503,6 +1517,7 @@ window.PHOTO_ITEMS = [
     month: "2026-03",
     date: "2026-03-28",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1527,6 +1542,7 @@ window.PHOTO_ITEMS = [
     month: "2026-03",
     date: "2026-03-28",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1551,6 +1567,7 @@ window.PHOTO_ITEMS = [
     month: "2026-03",
     date: "2026-03-21",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1575,6 +1592,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1599,6 +1617,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1623,6 +1642,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1647,6 +1667,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1671,6 +1692,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1695,6 +1717,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1719,6 +1742,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-11",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1743,6 +1767,7 @@ window.PHOTO_ITEMS = [
     month: "2026-01",
     date: "2026-01-01",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1767,6 +1792,7 @@ window.PHOTO_ITEMS = [
     month: "2026-01",
     date: "2026-01-01",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1791,6 +1817,7 @@ window.PHOTO_ITEMS = [
     month: "2026-01",
     date: "2026-01-01",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1815,6 +1842,7 @@ window.PHOTO_ITEMS = [
     month: "2026-01",
     date: "2026-01-01",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1839,6 +1867,7 @@ window.PHOTO_ITEMS = [
     month: "2026-01",
     date: "2026-01-01",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1863,6 +1892,7 @@ window.PHOTO_ITEMS = [
     month: "2025-12",
     date: "2025-12-13",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1887,6 +1917,7 @@ window.PHOTO_ITEMS = [
     month: "2025-08",
     date: "2025-08-16",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1911,6 +1942,7 @@ window.PHOTO_ITEMS = [
     month: "2025-08",
     date: "2025-08-14",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1935,6 +1967,7 @@ window.PHOTO_ITEMS = [
     month: "2025-08",
     date: "2025-08-12",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1959,6 +1992,7 @@ window.PHOTO_ITEMS = [
     month: "2025-08",
     date: "2025-08-12",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1983,6 +2017,7 @@ window.PHOTO_ITEMS = [
     month: "2025-07",
     date: "2025-07-20",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2007,6 +2042,7 @@ window.PHOTO_ITEMS = [
     month: "2025-07",
     date: "2025-07-20",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2031,6 +2067,7 @@ window.PHOTO_ITEMS = [
     month: "2025-07",
     date: "2025-07-20",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2055,6 +2092,7 @@ window.PHOTO_ITEMS = [
     month: "2025-07",
     date: "2025-07-10",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2079,6 +2117,7 @@ window.PHOTO_ITEMS = [
     month: "2025-07",
     date: "2025-07-10",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2103,6 +2142,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-14",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2127,6 +2167,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-14",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2151,6 +2192,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-07",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2175,6 +2217,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-07",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2199,6 +2242,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-05",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2223,6 +2267,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-05",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2247,6 +2292,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-05",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2271,6 +2317,7 @@ window.PHOTO_ITEMS = [
     month: "2025-06",
     date: "2025-06-05",
     collection: "",
+    author: "夏の歌",
     location: {
       country: "中国",
       province: "陕西省",

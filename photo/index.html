@@ -30,6 +30,12 @@
           <span class="tile-subtitle">Selected collections</span>
           <span class="tile-stat" id="collection-count"></span>
         </a>
+        <a class="photo-tile photo-tile-others" href="/photo/others/">
+          <span class="tile-index">03</span>
+          <span class="tile-title">他人作品</span>
+          <span class="tile-subtitle">Curated works</span>
+          <span class="tile-stat" id="others-count"></span>
+        </a>
       </section>
     </main>
 
@@ -39,10 +45,15 @@
         var items = window.PHOTO_ITEMS || [];
         var allCount = document.querySelector("#all-count");
         var colCount = document.querySelector("#collection-count");
+        var othersCount = document.querySelector("#others-count");
         if (allCount) allCount.textContent = items.length + " 张";
         if (colCount) {
           var cols = new Set(items.map(function (p) { return p.collection; }).filter(Boolean));
           colCount.textContent = cols.size + " 个系列";
+        }
+        if (othersCount) {
+          var others = items.filter(function (p) { return !!p.author; });
+          othersCount.textContent = others.length + " 张";
         }
 
         var quotes = [

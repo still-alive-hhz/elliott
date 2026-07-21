@@ -119,6 +119,13 @@ nav a.is-active {
   line-height: 0.98;
 }
 
+.title-note {
+  color: var(--dim);
+  font-size: 0.42em;
+  font-family: var(--sans);
+  letter-spacing: 0.06em;
+}
+
 /* photo-hero h1 now uses .hero-quote-en */
 
 .page-intro {
@@ -153,7 +160,7 @@ nav a.is-active {
 
 .photo-tiles {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(18px, 2.4vw, 34px);
   max-width: 1280px;
   margin: 0 auto;
@@ -258,11 +265,15 @@ nav a.is-active {
 }
 
 .photo-tile-all::before {
-  background-image: url("/assets/photo/sample-01.svg");
+  background-image: none;
 }
 
 .photo-tile-collections::before {
-  background-image: url("/assets/photo/sample-02.svg");
+  background-image: url("/assets/photo/thumbs/2026-06-05_cdcwq_DSC06808.webp");
+}
+
+.photo-tile-others::before {
+  background-image: url("/assets/photo/thumbs/2026-05-03_cgx_20260503-DSC06710.webp");
 }
 
 .all-page {
@@ -521,6 +532,12 @@ select {
 
 .collection-sub a:hover {
   color: var(--ink);
+}
+
+@media (max-width: 1100px) {
+  .photo-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 880px) {

@@ -5,3 +5,7 @@ node_modules/
 scripts/
 assets/photo/*.jpg
 assets/photo/*.JPG
+assets/photo/*.jpeg
+assets/photo/mine/
+assets/pages/
+
