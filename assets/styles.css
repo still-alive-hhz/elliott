@@ -99,15 +99,18 @@ nav a.is-active {
   margin-top: 18px;
   color: var(--dim);
   font-family: var(--serif);
-  font-size: clamp(14px, 1.5vw, 18px);
+  font-size: clamp(16px, 1.8vw, 22px);
   cursor: pointer;
-  border-bottom: 1px solid var(--line);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--line);
   line-height: 1.4;
   transition: color 160ms ease;
 }
 
 .home-essay-link:hover {
   color: var(--muted);
+  text-decoration-color: var(--muted);
 }
 
 .home-essay {
@@ -121,14 +124,19 @@ nav a.is-active {
   border-left: 2px solid var(--line);
   background: var(--panel);
   border-radius: 0 6px 6px 0;
+  font-family: var(--serif);
 }
 
 .home-essay-text p {
   margin: 0 0 16px;
   color: var(--muted);
-  font-family: var(--serif);
   font-size: clamp(14px, 1.4vw, 17px);
   line-height: 1.75;
+  text-indent: 2em;
+}
+
+.home-essay-text p:first-child {
+  text-indent: 0;
 }
 
 .home-essay-text p:last-child {
