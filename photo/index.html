@@ -21,6 +21,7 @@
           <img class="tile-bg-img" id="tile-bg-all" alt="">
           <span class="tile-index">01</span>
           <span class="tile-title">全部照片</span>
+          <span class="tile-tag">（个人）</span>
           <span class="tile-subtitle">All photographs</span>
           <span class="tile-stat" id="all-count"></span>
         </a>
@@ -31,6 +32,7 @@
           <span class="tile-stat" id="collection-count"></span>
         </a>
         <a class="photo-tile photo-tile-others" href="/photo/others/">
+          <img class="tile-bg-img" id="tile-bg-others" alt="">
           <span class="tile-index">03</span>
           <span class="tile-title">他人作品</span>
           <span class="tile-subtitle">Curated works</span>
@@ -72,8 +74,9 @@
 
         /* ---- rotating tile background ---- */
 
-        var tileBg = document.getElementById("tile-bg-all");
-        if (!tileBg || !items.length) return;
+        var tileBgAll = document.getElementById("tile-bg-all");
+        var tileBgOthers = document.getElementById("tile-bg-others");
+        if (!tileBgAll || !tileBgOthers || !items.length) return;
 
         var images = items.map(function (p) { return p.image; });
         var current = -1;
@@ -86,9 +89,14 @@
           return next;
         }
 
+        function setBoth(src) {
+          tileBgAll.src = src;
+          tileBgOthers.src = src;
+        }
+
         function setBg() {
           current = pickNext();
-          tileBg.src = images[current];
+          setBoth(images[current]);
         }
 
         function cycleBg() {
@@ -98,11 +106,13 @@
           preload.onload = function () {
             if (fading) return;
             fading = true;
-            tileBg.style.opacity = "0";
-            tileBg.addEventListener("transitionend", function handler() {
-              tileBg.removeEventListener("transitionend", handler);
-              tileBg.src = images[next];
-              tileBg.style.opacity = "1";
+            tileBgAll.style.opacity = "0";
+            tileBgOthers.style.opacity = "0";
+            tileBgAll.addEventListener("transitionend", function handler() {
+              tileBgAll.removeEventListener("transitionend", handler);
+              setBoth(images[next]);
+              tileBgAll.style.opacity = "1";
+              tileBgOthers.style.opacity = "1";
               current = next;
               fading = false;
             });
