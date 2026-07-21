@@ -8,8 +8,22 @@
   --line: rgba(246, 241, 232, 0.16);
   --line-soft: rgba(246, 241, 232, 0.08);
   --panel: rgba(246, 241, 232, 0.045);
-  --serif: Didot, "Bodoni 72", "Times New Roman", "Songti SC", "STSongti-SC", "Noto Serif CJK SC", STSong, serif;
+  --serif: "Elliott Serif", Didot, "Bodoni 72", "Times New Roman", "Songti SC", serif;
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Latin glyphs → Didot */
+@font-face {
+  font-family: "Elliott Serif";
+  src: local("Didot"), local("Bodoni 72"), local("Times New Roman");
+  unicode-range: U+0000-024F, U+1E00-1EFF, U+2000-206F;
+}
+
+/* CJK glyphs → Songti / Noto Serif */
+@font-face {
+  font-family: "Elliott Serif";
+  src: local("Songti SC"), local("STSongti-SC"), local("Noto Serif CJK SC"), local("STSong"), local("Songti TC");
+  unicode-range: U+2E80-2FFF, U+3000-9FFF, U+F900-FAFF, U+FE10-FE3F, U+FF00-FFEF;
 }
 
 * {
