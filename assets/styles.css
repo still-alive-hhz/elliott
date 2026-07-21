@@ -90,6 +90,51 @@ nav a.is-active {
   font-weight: 400;
 }
 
+.home-content {
+  text-align: center;
+}
+
+.home-essay-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--dim);
+  font-family: var(--serif);
+  font-size: clamp(14px, 1.5vw, 18px);
+  cursor: pointer;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.4;
+  transition: color 160ms ease;
+}
+
+.home-essay-link:hover {
+  color: var(--muted);
+}
+
+.home-essay {
+  margin: 24px auto 0;
+  max-width: 680px;
+  text-align: left;
+}
+
+.home-essay-text {
+  padding: 28px 32px;
+  border-left: 2px solid var(--line);
+  background: var(--panel);
+  border-radius: 0 6px 6px 0;
+}
+
+.home-essay-text p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: clamp(14px, 1.4vw, 17px);
+  line-height: 1.75;
+}
+
+.home-essay-text p:last-child {
+  margin-bottom: 0;
+}
+
 .photo-landing {
   min-height: calc(100vh - 64px);
   padding: clamp(30px, 5vw, 76px);

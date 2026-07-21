@@ -9,7 +9,37 @@
   <body>
     <script src="/assets/header.js?v=2"></script>
     <main class="home-shell">
-      <h1>Still Alive</h1>
+      <div class="home-content">
+        <h1>Still Alive</h1>
+        <p class="home-essay-link" id="essay-toggle">建站感言</p>
+        <div class="home-essay" id="essay-content" hidden>
+          <div class="home-essay-text"></div>
+        </div>
+      </div>
     </main>
+
+    <script src="/assets/photo-data.js?v=2"></script>
+    <script>
+      (function () {
+        var toggle = document.getElementById("essay-toggle");
+        var content = document.getElementById("essay-content");
+        var textEl = content.querySelector(".home-essay-text");
+
+        fetch("/assets/pages/建站感言.txt")
+          .then(function (r) { return r.text(); })
+          .then(function (text) {
+            var html = text.split("\n").map(function (line) {
+              return line ? "<p>" + line + "</p>" : "";
+            }).join("");
+            textEl.innerHTML = html;
+          });
+
+        toggle.addEventListener("click", function () {
+          var hidden = content.hidden;
+          content.hidden = !hidden;
+          toggle.textContent = hidden ? "收起感言" : "建站感言";
+        });
+      })();
+    </script>
   </body>
 </html>
