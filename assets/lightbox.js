@@ -57,12 +57,6 @@
     }
     if (!photo) return;
 
-    var fullSrc = photo.fullImage || photo.image;
-    img.onerror = function () {
-      if (img.src === fullSrc && photo.image !== fullSrc) {
-        img.src = photo.image;
-      }
-    };
-    open(fullSrc, photo.title);
+    open(photo.image, photo.title);
   });
 })();
