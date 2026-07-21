@@ -1,5 +1,5 @@
 (function () {
-  var items = window.PHOTO_ITEMS || [];
+  var items = (window.PHOTO_ITEMS || []).filter(function (p) { return !p.author; });
   var locConfig = window.LOCATION_CONFIG;
   var levels = locConfig.levels;
 

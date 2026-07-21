@@ -48,7 +48,7 @@
         var allCount = document.querySelector("#all-count");
         var colCount = document.querySelector("#collection-count");
         var othersCount = document.querySelector("#others-count");
-        if (allCount) allCount.textContent = items.length + " 张";
+        if (allCount) allCount.textContent = items.filter(function(p) { return !p.author; }).length + " 张";
         if (colCount) {
           var cols = new Set(items.map(function (p) { return p.collection; }).filter(Boolean));
           colCount.textContent = cols.size + " 个系列";
