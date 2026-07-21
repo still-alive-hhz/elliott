@@ -32,9 +32,18 @@
     }
     if (startIdx > 0) startIdx--;
 
-    return levels.slice(startIdx).filter(function (level) {
+    var visible = levels.slice(startIdx).filter(function (level) {
       return items.some(function (p) { return !!getLocationValue(p, level); });
     });
+
+    while (visible.length < 2 && startIdx > 0) {
+      startIdx--;
+      visible = levels.slice(startIdx).filter(function (level) {
+        return items.some(function (p) { return !!getLocationValue(p, level); });
+      });
+    }
+
+    return visible;
   }
 
   var visibleLevels = getVisibleLevels();
