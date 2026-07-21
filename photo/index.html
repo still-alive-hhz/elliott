@@ -75,45 +75,34 @@
 
         var tileBgAll = document.getElementById("tile-bg-all");
         var tileBgOthers = document.getElementById("tile-bg-others");
-        if (!tileBgAll || !tileBgOthers || !items.length) return;
+        if (!tileBgAll || !items.length) return;
 
-        var personalImgs = [];
-        var othersImgs = [];
-        items.forEach(function (p) {
-          if (p.author) {
-            othersImgs.push(p.image);
-          } else {
-            personalImgs.push(p.image);
-          }
-        });
+        var personalImgs = items.filter(function (p) { return !p.author; }).map(function (p) { return p.image; });
 
-        function randomPick(arr) {
-          return arr[Math.floor(Math.random() * arr.length)];
+        tileBgAll.src = personalImgs[Math.floor(Math.random() * personalImgs.length)];
+
+        if (tileBgOthers) {
+          var othersImg = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; })[0];
+          if (othersImg) tileBgOthers.src = othersImg;
         }
 
-        function cycleTile(img, images) {
-          if (!images.length) return;
+        setInterval(function () {
+          if (!personalImgs.length) return;
           var preload = new Image();
           preload.onload = function () {
-            img.style.opacity = "0";
+            tileBgAll.style.opacity = "0";
             var done = false;
             function onEnd() {
               if (done) return;
               done = true;
-              img.removeEventListener("transitionend", onEnd);
-              img.src = preload.src;
-              img.style.opacity = "1";
+              tileBgAll.removeEventListener("transitionend", onEnd);
+              tileBgAll.src = preload.src;
+              tileBgAll.style.opacity = "1";
             }
-            img.addEventListener("transitionend", onEnd);
+            tileBgAll.addEventListener("transitionend", onEnd);
           };
-          preload.src = randomPick(images);
-        }
-
-        tileBgAll.src = randomPick(personalImgs);
-        tileBgOthers.src = randomPick(othersImgs);
-
-        setInterval(function () { cycleTile(tileBgAll, personalImgs); }, 6000);
-        setInterval(function () { cycleTile(tileBgOthers, othersImgs); }, 6000);
+          preload.src = personalImgs[Math.floor(Math.random() * personalImgs.length)];
+        }, 6000);
       })();
     </script>
   </body>
