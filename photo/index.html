@@ -77,61 +77,43 @@
         var tileBgOthers = document.getElementById("tile-bg-others");
         if (!tileBgAll || !tileBgOthers || !items.length) return;
 
-        var personalImages = items.filter(function (p) { return !p.author; }).map(function (p) { return p.image; });
-        var othersImages = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; });
+        var personalImgs = [];
+        var othersImgs = [];
+        items.forEach(function (p) {
+          if (p.author) {
+            othersImgs.push(p.image);
+          } else {
+            personalImgs.push(p.image);
+          }
+        });
 
-        var currentAll = -1, currentOthers = -1;
-        var fadingAll = false, fadingOthers = false;
-
-        function pickNext(arr, current) {
-          if (!arr.length) return -1;
-          var next;
-          do { next = Math.floor(Math.random() * arr.length); }
-          while (next === current && arr.length > 1);
-          return next;
+        function randomPick(arr) {
+          return arr[Math.floor(Math.random() * arr.length)];
         }
 
-        function cycle(slot, target, images, currentRef, fadingRef) {
-          return function () {
-            if (fadingRef[0]) return;
-            if (!images.length) return;
-            var next = pickNext(images, currentRef[0]);
-            if (next < 0) return;
-            var preload = new Image();
-            preload.onload = function () {
-              if (fadingRef[0]) return;
-              fadingRef[0] = true;
-              target.style.opacity = "0";
-              target.addEventListener("transitionend", function handler() {
-                target.removeEventListener("transitionend", handler);
-                target.src = images[next];
-                target.style.opacity = "1";
-                currentRef[0] = next;
-                fadingRef[0] = false;
-              });
-            };
-            preload.src = images[next];
-          };
-        }
-
-        var fadeAll = { 0: false };
-        var fadeOthers = { 0: false };
-        var curAll = { 0: -1 };
-        var curOthers = { 0: -1 };
-
-        function setBg(slot, target, images, currentRef) {
+        function cycleTile(img, images) {
           if (!images.length) return;
-          var idx = pickNext(images, -1);
-          if (idx < 0) return;
-          currentRef[0] = idx;
-          target.src = images[idx];
+          var preload = new Image();
+          preload.onload = function () {
+            img.style.opacity = "0";
+            var done = false;
+            function onEnd() {
+              if (done) return;
+              done = true;
+              img.removeEventListener("transitionend", onEnd);
+              img.src = preload.src;
+              img.style.opacity = "1";
+            }
+            img.addEventListener("transitionend", onEnd);
+          };
+          preload.src = randomPick(images);
         }
 
-        setBg("all", tileBgAll, personalImages, curAll);
-        setBg("others", tileBgOthers, othersImages, curOthers);
+        tileBgAll.src = randomPick(personalImgs);
+        tileBgOthers.src = randomPick(othersImgs);
 
-        setInterval(cycle("all", tileBgAll, personalImages, curAll, fadeAll), 6000);
-        setInterval(cycle("others", tileBgOthers, othersImages, curOthers, fadeOthers), 6000);
+        setInterval(function () { cycleTile(tileBgAll, personalImgs); }, 6000);
+        setInterval(function () { cycleTile(tileBgOthers, othersImgs); }, 6000);
       })();
     </script>
   </body>
