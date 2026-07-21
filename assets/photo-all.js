@@ -227,13 +227,13 @@
 
   function metaItems(meta) {
     return [
-      ["相机", meta.camera],
-      ["镜头", meta.lens],
-      ["光圈", meta.aperture],
-      ["快门", meta.shutter],
-      ["ISO", meta.iso],
-      ["焦距", meta.focalLength]
-    ].filter(function (pair) { return pair[1]; });
+      ["相机", meta.camera || "None"],
+      ["镜头", meta.lens || "None"],
+      ["光圈", meta.aperture || "None"],
+      ["快门", meta.shutter || "None"],
+      ["ISO", meta.iso || "None"],
+      ["焦距", meta.focalLength || "None"]
+    ];
   }
 
   function renderMeta(card, meta) {
