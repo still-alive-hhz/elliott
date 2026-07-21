@@ -82,14 +82,21 @@
 
         function cycleBg() {
           if (fading) return;
-          fading = true;
-          tileBg.style.opacity = "0";
-          setTimeout(function () {
-            current = pickNext();
-            tileBg.src = images[current];
-            tileBg.style.opacity = "1";
-            fading = false;
-          }, 800);
+          var next = pickNext();
+          var preload = new Image();
+          preload.onload = function () {
+            if (fading) return;
+            fading = true;
+            tileBg.style.opacity = "0";
+            tileBg.addEventListener("transitionend", function handler() {
+              tileBg.removeEventListener("transitionend", handler);
+              tileBg.src = images[next];
+              tileBg.style.opacity = "1";
+              current = next;
+              fading = false;
+            });
+          };
+          preload.src = images[next];
         }
 
         setBg();
