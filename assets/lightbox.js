@@ -47,7 +47,6 @@
   document.addEventListener("click", function (e) {
     var card = e.target.closest(".photo-card");
     if (!card) return;
-    if (e.target.tagName !== "IMG") return;
 
     var items = window.PHOTO_ITEMS || [];
     var photoId = card.dataset.photoId;
