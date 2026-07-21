@@ -72,56 +72,67 @@
         document.getElementById("hero-quote-en").textContent = q.en;
         document.getElementById("hero-quote-zh").textContent = q.zh;
 
-        /* ---- rotating tile background ---- */
+        /* ---- rotating tile backgrounds ---- */
 
         var tileBgAll = document.getElementById("tile-bg-all");
         var tileBgOthers = document.getElementById("tile-bg-others");
         if (!tileBgAll || !tileBgOthers || !items.length) return;
 
-        var images = items.map(function (p) { return p.image; });
-        var current = -1;
-        var fading = false;
+        var personalImages = items.filter(function (p) { return !p.author; }).map(function (p) { return p.image; });
+        var othersImages = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; });
 
-        function pickNext() {
+        var currentAll = -1, currentOthers = -1;
+        var fadingAll = false, fadingOthers = false;
+
+        function pickNext(arr, current) {
+          if (!arr.length) return -1;
           var next;
-          do { next = Math.floor(Math.random() * images.length); }
-          while (next === current && images.length > 1);
+          do { next = Math.floor(Math.random() * arr.length); }
+          while (next === current && arr.length > 1);
           return next;
         }
 
-        function setBoth(src) {
-          tileBgAll.src = src;
-          tileBgOthers.src = src;
-        }
-
-        function setBg() {
-          current = pickNext();
-          setBoth(images[current]);
-        }
-
-        function cycleBg() {
-          if (fading) return;
-          var next = pickNext();
-          var preload = new Image();
-          preload.onload = function () {
-            if (fading) return;
-            fading = true;
-            tileBgAll.style.opacity = "0";
-            tileBgOthers.style.opacity = "0";
-            tileBgAll.addEventListener("transitionend", function handler() {
-              tileBgAll.removeEventListener("transitionend", handler);
-              setBoth(images[next]);
-              tileBgAll.style.opacity = "1";
-              tileBgOthers.style.opacity = "1";
-              current = next;
-              fading = false;
-            });
+        function cycle(slot, target, images, currentRef, fadingRef) {
+          return function () {
+            if (fadingRef[0]) return;
+            if (!images.length) return;
+            var next = pickNext(images, currentRef[0]);
+            if (next < 0) return;
+            var preload = new Image();
+            preload.onload = function () {
+              if (fadingRef[0]) return;
+              fadingRef[0] = true;
+              target.style.opacity = "0";
+              target.addEventListener("transitionend", function handler() {
+                target.removeEventListener("transitionend", handler);
+                target.src = images[next];
+                target.style.opacity = "1";
+                currentRef[0] = next;
+                fadingRef[0] = false;
+              });
+            };
+            preload.src = images[next];
           };
-          preload.src = images[next];
         }
 
-        setBg();
-        setInterval(cycleBg, 6000);
+        var fadeAll = { 0: false };
+        var fadeOthers = { 0: false };
+        var curAll = { 0: -1 };
+        var curOthers = { 0: -1 };
+
+        function setBg(slot, target, images, currentRef) {
+          if (!images.length) return;
+          var idx = pickNext(images, -1);
+          if (idx < 0) return;
+          currentRef[0] = idx;
+          target.src = images[idx];
+        }
+
+        setBg("all", tileBgAll, personalImages, curAll);
+        setBg("others", tileBgOthers, othersImages, curOthers);
+
+        setInterval(cycle("all", tileBgAll, personalImages, curAll, fadeAll), 6000);
+        setInterval(cycle("others", tileBgOthers, othersImages, curOthers, fadeOthers), 6000);
       })();
     </script>
   </body>
