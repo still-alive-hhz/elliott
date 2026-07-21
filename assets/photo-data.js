@@ -1109,7 +1109,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "陕西省",
       city: "汉中市",
-      district: "洋县",
+      district: "城固县",
     },
     fallbackMeta: {
       camera: "HUAWEI HMA-AL00",
