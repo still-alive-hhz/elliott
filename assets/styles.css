@@ -323,11 +323,11 @@ nav a.is-active {
 }
 
 .photo-tile-collections::before {
-  background-image: url("/assets/photo/thumbs/2026-06-05_cdcwq_DSC06808.webp");
+  background-image: none;
 }
 
 .photo-tile-others::before {
-  background-image: url("/assets/photo/thumbs/2026-05-03_cgx_20260503-DSC06710.webp");
+  background-image: none;
 }
 
 .all-page {
