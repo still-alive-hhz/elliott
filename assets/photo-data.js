@@ -1556,6 +1556,7 @@ window.PHOTO_ITEMS = [
     month: "2026-02",
     date: "2026-02-13",
     collection: "",
+    note: "江河有岸，沧海无涯，当对岸被遮挡住的时候，河流便有了大海的模样，有时候局限住我们的，刚好是一眼就能看到头的终点。",
     author: "夏の歌",
     location: {
       country: "中国",
