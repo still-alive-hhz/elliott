@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>洋县县城 | Elliott</title>
+    <link rel="stylesheet" href="/assets/styles.css?v=3">
+  </head>
+  <body>
+    <script src="/assets/header.js?v=3"></script>
+    <main class="all-page">
+      <section class="page-title">
+        <p class="kicker">Collection</p>
+        <h1>洋县县城</h1>
+        <p class="page-intro">展示洋县县城风貌的一组影相。</p>
+      </section>
+
+      <section class="result-line" aria-live="polite">
+        <span>Collection</span>
+        <span id="result-count">0 张照片</span>
+      </section>
+
+      <section id="photo-grid" class="photo-grid" aria-label="照片列表"></section>
+      <p id="empty-state" class="empty-state" hidden>此合集暂无照片。</p>
+    </main>
+
+    <script src="/assets/exif-reader.js?v=3"></script>
+    <script src="/assets/photo-data.js?v=3"></script>
+    <script src="/assets/lightbox.js?v=3"></script>
+    <script>
+      (function () {
+        var items = (window.PHOTO_ITEMS || []).filter(function (p) {
+          return p.collection === "洋县县城";
+        });
+
+        var grid = document.querySelector("#photo-grid");
+        var count = document.querySelector("#result-count");
+        var emptyState = document.querySelector("#empty-state");
+
+        function formatDate(value) {
+          if (!value) return "";
+          return value.split("-").filter(Boolean).join(".");
+        }
+
+        var MONTH_LABELS = {
+          "01": "1月", "02": "2月", "03": "3月", "04": "4月",
+          "05": "5月", "06": "6月", "07": "7月", "08": "8月",
+          "09": "9月", "10": "10月", "11": "11月", "12": "12月"
+        };
+
+        function monthLabel(value) {
+          if (!value) return "";
+          var parts = value.split("-");
+          return parts[0] + "年" + (MONTH_LABELS[parts[1]] || parts[1]);
+        }
+
+        function metaItems(meta) {
+          return [
+            ["相机", meta.camera || "None"],
+            ["镜头", meta.lens || "None"],
+            ["光圈", meta.aperture || "None"],
+            ["快门", meta.shutter || "None"],
+            ["ISO", meta.iso || "None"],
+            ["焦距", meta.focalLength || "None"]
+          ];
+        }
+
+        function renderMeta(card, meta) {
+          var list = card.querySelector(".photo-meta");
+          var items = metaItems(meta);
+          list.hidden = items.length === 0;
+          list.innerHTML = items.map(function (pair) {
+            return '<div><dt>' + pair[0] + "</dt><dd>" + pair[1] + "</dd></div>";
+          }).join("");
+        }
+
+        items.sort(function (a, b) {
+          return new Date(b.date) - new Date(a.date);
+        });
+
+        grid.innerHTML = "";
+        count.textContent = items.length + " 张照片";
+        emptyState.hidden = items.length > 0;
+
+        items.forEach(function (photo) {
+          var card = document.createElement("article");
+          card.className = "photo-card";
+          card.dataset.photoId = photo.id;
+          card.innerHTML =
+            '<img src="' + photo.image + '" alt="' + photo.title + '" loading="lazy">' +
+            '<div class="photo-card-copy">' +
+            '<h2>' + photo.title + "</h2>" +
+            '<div class="photo-location-row">' +
+            '<p class="photo-location">' + window.getLocationDisplay(photo) + "</p>" +
+            (photo.note ? '<button class="photo-note-trigger" aria-label="札记">札记</button>' : "") +
+            "</div>" +
+            (photo.note ? '<div class="photo-note-popover" hidden><p class="photo-note-text">' + photo.note + "</p></div>" : "") +
+            '<p class="photo-date">' + formatDate(photo.date) + "</p>" +
+            '<dl class="photo-meta" aria-label="拍摄参数"></dl>' +
+            "</div>";
+          grid.append(card);
+          if (photo.note) {
+            var trigger = card.querySelector(".photo-note-trigger");
+            var popover = card.querySelector(".photo-note-popover");
+            trigger.addEventListener("click", function (e) {
+              e.stopPropagation();
+              popover.hidden = !popover.hidden;
+            });
+          }
+          renderMeta(card, photo.fallbackMeta || {});
+        });
+      })();
+    </script>
+  </body>
+</html>

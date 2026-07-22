@@ -338,6 +338,14 @@ nav a.is-active {
   background-image: none;
 }
 
+.collection-tiles {
+  margin-top: clamp(30px, 5vw, 60px);
+}
+
+.collection-tile::before {
+  background-image: none;
+}
+
 .all-page {
   width: min(1360px, 100%);
   margin: 0 auto;

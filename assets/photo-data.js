@@ -842,7 +842,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2026-05-23_yx_20260523-DSC06765.webp",
     month: "2026-05",
     date: "2026-05-23",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1578,7 +1578,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06088.webp",
     month: "2026-02",
     date: "2026-02-11",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -1969,7 +1969,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2025-07-20_yx_20250720-DSC05277.webp",
     month: "2025-07",
     date: "2025-07-20",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2015,7 +2015,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2025-07-10_yx_20250710-DSC05268.webp",
     month: "2025-07",
     date: "2025-07-10",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2061,7 +2061,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2025-06-14_yx_Kaiming Temple Pagoda, Yang.webp",
     month: "2025-06",
     date: "2025-06-14",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2107,7 +2107,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2025-06-07_yx_05 Lamp and bird.webp",
     month: "2025-06",
     date: "2025-06-07",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
@@ -2153,7 +2153,7 @@ window.PHOTO_ITEMS = [
     image: "/assets/photo/thumbs/mine/2025-06-05_yx_20250605-DSC05142.webp",
     month: "2025-06",
     date: "2025-06-05",
-    collection: "",
+    collection: "洋县县城",
     location: {
       country: "中国",
       province: "陕西省",
