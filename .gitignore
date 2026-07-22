@@ -6,5 +6,8 @@ scripts/
 assets/photo/*.jpg
 assets/photo/*.JPG
 assets/photo/*.jpeg
+assets/photo/**/*.jpg
+assets/photo/**/*.JPG
+assets/photo/**/*.jpeg
 assets/photo/mine/
 
