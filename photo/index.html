@@ -25,6 +25,7 @@
           <span class="tile-stat" id="all-count"></span>
         </a>
         <a class="photo-tile photo-tile-collections" href="/photo/collections/">
+          <img class="tile-bg-img" id="tile-bg-collections" alt="">
           <span class="tile-index">02</span>
           <span class="tile-title">摄影集</span>
           <span class="tile-subtitle">Selected collections</span>
@@ -74,35 +75,45 @@
         /* ---- rotating tile backgrounds ---- */
 
         var tileBgAll = document.getElementById("tile-bg-all");
+        var tileBgCollections = document.getElementById("tile-bg-collections");
         var tileBgOthers = document.getElementById("tile-bg-others");
         if (!tileBgAll || !items.length) return;
 
         var personalImgs = items.filter(function (p) { return !p.author; }).map(function (p) { return p.image; });
+        var collectionImgs = items.filter(function (p) { return !!p.collection; }).map(function (p) { return p.image; });
 
-        tileBgAll.src = personalImgs[Math.floor(Math.random() * personalImgs.length)];
+        function randomFrom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+        function cycleTile(img, images) {
+          if (!images.length) return;
+          var preload = new Image();
+          preload.onload = function () {
+            img.style.opacity = "0";
+            var done = false;
+            function onEnd() {
+              if (done) return;
+              done = true;
+              img.removeEventListener("transitionend", onEnd);
+              img.src = preload.src;
+              img.style.opacity = "1";
+            }
+            img.addEventListener("transitionend", onEnd);
+          };
+          preload.src = randomFrom(images);
+        }
+
+        tileBgAll.src = randomFrom(personalImgs);
+        setInterval(function () { cycleTile(tileBgAll, personalImgs); }, 6000);
+
+        if (tileBgCollections && collectionImgs.length) {
+          tileBgCollections.src = randomFrom(collectionImgs);
+          setInterval(function () { cycleTile(tileBgCollections, collectionImgs); }, 6000);
+        }
 
         if (tileBgOthers) {
           var othersImg = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; })[0];
           if (othersImg) tileBgOthers.src = othersImg;
         }
-
-        setInterval(function () {
-          if (!personalImgs.length) return;
-          var preload = new Image();
-          preload.onload = function () {
-            tileBgAll.style.opacity = "0";
-            var done = false;
-            function onEnd() {
-              if (done) return;
-              done = true;
-              tileBgAll.removeEventListener("transitionend", onEnd);
-              tileBgAll.src = preload.src;
-              tileBgAll.style.opacity = "1";
-            }
-            tileBgAll.addEventListener("transitionend", onEnd);
-          };
-          preload.src = personalImgs[Math.floor(Math.random() * personalImgs.length)];
-        }, 6000);
       })();
     </script>
   </body>
