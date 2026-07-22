@@ -41,7 +41,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -64,7 +64,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -87,7 +87,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -110,7 +110,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -133,7 +133,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -156,7 +156,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -179,7 +179,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -202,7 +202,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -225,7 +225,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -248,7 +248,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -271,7 +271,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -294,7 +294,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -317,7 +317,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -340,7 +340,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -363,7 +363,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -386,7 +386,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -639,7 +639,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -662,7 +662,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -685,7 +685,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -708,7 +708,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -731,7 +731,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -754,7 +754,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -777,7 +777,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
@@ -800,7 +800,7 @@ window.PHOTO_ITEMS = [
       country: "中国",
       province: "四川省",
       city: "成都市",
-      district: "城五区",
+      district: "五城区",
     },
     fallbackMeta: {
       camera: "SONY SLT-A57",
