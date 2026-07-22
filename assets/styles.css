@@ -419,7 +419,6 @@ select {
   overflow: hidden;
   border-bottom: 1px solid var(--line-soft);
   background: transparent;
-  cursor: pointer;
 }
 .photo-card img {
   display: block;
@@ -427,6 +426,7 @@ select {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   filter: grayscale(0.08) contrast(1.02);
+  cursor: pointer;
 }
 
 .photo-card-copy {

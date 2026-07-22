@@ -45,6 +45,7 @@
   });
 
   document.addEventListener("click", function (e) {
+    if (e.target.tagName !== "IMG") return;
     var card = e.target.closest(".photo-card");
     if (!card) return;
 
