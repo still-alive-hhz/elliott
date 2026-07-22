@@ -224,7 +224,7 @@
         (photo.note ? '<button class="photo-note-trigger" aria-label="札记">札记</button>' : "") +
         "</div>" +
         (photo.note ? '<div class="photo-note-popover" hidden><p class="photo-note-text">' + photo.note + "</p></div>" : "") +
-        '<p class="photo-date">' + formatDate(photo.date) + "</p>" +
+        '<div class="photo-date-row"><p class="photo-date">' + formatDate(photo.date) + '</p><p class="photo-author">' + (photo.author || "") + "</p></div>" +
         '<dl class="photo-meta" aria-label="拍摄参数"></dl>' +
         "</div>";
       grid.append(card);

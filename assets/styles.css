@@ -494,11 +494,26 @@ select {
   line-height: 1.6;
 }
 
-.photo-date {
+.photo-date-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-top: 8px;
+}
+
+.photo-date {
+  margin: 0;
   color: var(--dim);
   font-family: var(--serif);
   font-size: 17px;
+}
+
+.photo-author {
+  margin: 0;
+  color: var(--dim);
+  font-family: var(--serif);
+  font-size: 15px;
+  text-align: right;
 }
 
 .photo-meta {
