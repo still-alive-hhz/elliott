@@ -115,7 +115,7 @@ nav a.is-active {
 
 .home-essay {
   margin: 24px auto 0;
-  max-width: 680px;
+  max-width: 760px;
   text-align: left;
 }
 
@@ -141,6 +141,14 @@ nav a.is-active {
 
 .home-essay-text p:last-child {
   margin-bottom: 0;
+}
+
+.home-essay-date {
+  margin: 24px 0 0;
+  color: var(--dim);
+  font-family: var(--serif);
+  font-size: clamp(13px, 1.3vw, 16px);
+  text-align: right;
 }
 
 .photo-landing {
