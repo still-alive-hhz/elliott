@@ -23,7 +23,7 @@
   };
 
   var EN_MAP = {
-    "洋县县城": "Yangxian Town"
+    "洋县县城": "Yangxian Downtown"
   };
 
   var tiles = document.createElement("div");
