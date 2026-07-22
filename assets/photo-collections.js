@@ -19,7 +19,7 @@
   }
 
   var PAGE_MAP = {
-    "洋县县城": "yangxian_town.html"
+    "洋县县城": "yangxian_city.html"
   };
 
   var tiles = document.createElement("div");
