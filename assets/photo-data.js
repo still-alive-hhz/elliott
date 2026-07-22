@@ -1067,6 +1067,27 @@ window.PHOTO_ITEMS = [
     }
   },
   {
+    image: "/assets/photo/thumbs/others/others_summer_song_A9A44FB35234E21B.webp",
+    month: "2026-05",
+    date: "2026-05-04",
+    collection: "",
+    author: "夏の歌",
+    location: {
+      country: "中国",
+      province: "陕西省",
+      city: "汉中市",
+      district: "城固县",
+    },
+    fallbackMeta: {
+      camera: "HUAWEI HMA-AL00",
+      aperture: "f/2.4",
+      shutter: "1/1898s",
+      iso: "ISO 50",
+      focalLength: "54mm",
+      takenAt: "2026:05:04 11:30:47",
+    }
+  },
+  {
     id: "2026-05-03-cgx-20260503-dsc06710",
     title: "",
     image: "/assets/photo/thumbs/mine/2026-05-03_cgx_20260503-DSC06710.webp",
@@ -1524,6 +1545,52 @@ window.PHOTO_ITEMS = [
       iso: "ISO 800",
       focalLength: "55mm",
       takenAt: "2026:03:21 17:55:38",
+    }
+  },
+  {
+    id: "others-summer-song-8e449665",
+    title: "",
+    image: "/assets/photo/thumbs/others/others_summer_song_8E4496650DC884BB.webp",
+    month: "2026-02",
+    date: "2026-02-13",
+    collection: "",
+    author: "夏の歌",
+    location: {
+      country: "中国",
+      province: "陕西省",
+      city: "汉中市",
+      district: "城固县",
+    },
+    fallbackMeta: {
+      camera: "HUAWEI HMA-AL00",
+      aperture: "f/1.8",
+      shutter: "1/8547s",
+      iso: "ISO 50",
+      focalLength: "28mm",
+      takenAt: "2026:02:13 15:22:05",
+    }
+  },
+  {
+    id: "others-summer-song-94c3b6dd",
+    title: "",
+    image: "/assets/photo/thumbs/others/others_summer_song_94c3b6ddee33386d.webp",
+    month: "2026-02",
+    date: "2026-02-13",
+    collection: "",
+    author: "夏の歌",
+    location: {
+      country: "中国",
+      province: "陕西省",
+      city: "汉中市",
+      district: "城固县",
+    },
+    fallbackMeta: {
+      camera: "HUAWEI HMA-AL00",
+      aperture: "f/2.4",
+      shutter: "1/1232s",
+      iso: "ISO 50",
+      focalLength: "64mm",
+      takenAt: "2026:02:13 15:17:03",
     }
   },
   {
