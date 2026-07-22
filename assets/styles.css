@@ -14,7 +14,7 @@
   --line: rgba(246, 241, 232, 0.16);
   --line-soft: rgba(246, 241, 232, 0.08);
   --panel: rgba(246, 241, 232, 0.045);
-  --serif: "Noto Serif SC", Didot, "Bodoni 72", "Times New Roman", "Songti SC", serif;
+  --serif: "Songti SC", "Noto Serif SC", "STSongti-SC", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 }
 
