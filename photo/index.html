@@ -81,6 +81,7 @@
 
         var personalImgs = items.filter(function (p) { return !p.author; }).map(function (p) { return p.image; });
         var collectionImgs = items.filter(function (p) { return !!p.collection; }).map(function (p) { return p.image; });
+        var othersImgs = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; });
 
         function randomFrom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
@@ -110,9 +111,9 @@
           setInterval(function () { cycleTile(tileBgCollections, collectionImgs); }, 6000);
         }
 
-        if (tileBgOthers) {
-          var othersImg = items.filter(function (p) { return !!p.author; }).map(function (p) { return p.image; })[0];
-          if (othersImg) tileBgOthers.src = othersImg;
+        if (tileBgOthers && othersImgs.length) {
+          tileBgOthers.src = randomFrom(othersImgs);
+          setInterval(function () { cycleTile(tileBgOthers, othersImgs); }, 6000);
         }
       })();
     </script>
