@@ -33,7 +33,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06898",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06898.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06898.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -57,7 +56,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06902",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06902.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06902.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -81,7 +79,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06905",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06905.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06905.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -105,7 +102,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06907",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06907.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06907.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -129,7 +125,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06908",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06908.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06908.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -153,7 +148,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06909",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06909.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06909.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -177,7 +171,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06911",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06911.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06911.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -201,7 +194,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06916",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06916.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06916.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -225,7 +217,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06918",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06918.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06918.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -249,7 +240,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06924",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06924.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06924.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -273,7 +263,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06925",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06925.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06925.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -297,7 +286,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06929",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06929.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06929.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -321,7 +309,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06937",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06937.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06937.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -345,7 +332,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06944",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06944.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06944.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -369,7 +355,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06960",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06960.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06960.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -393,7 +378,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-08-cdcwq-dsc06962",
     title: "",
-    fullImage: "/assets/photo/2026-06-08_cdcwq_DSC06962.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-08_cdcwq_DSC06962.webp",
     month: "2026-06",
     date: "2026-06-08",
@@ -417,7 +401,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06849",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06849.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06849.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -441,7 +424,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06851",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06851.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06851.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -465,7 +447,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06859",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06859.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06859.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -489,7 +470,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06864",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06864.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06864.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -513,7 +493,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06872",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06872.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06872.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -537,7 +516,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06876",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06876.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06876.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -561,7 +539,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06879",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06879.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06879.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -585,7 +562,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06887",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06887.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06887.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -609,7 +585,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06889",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06889.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06889.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -633,7 +608,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-07-cddjy-dsc06893",
     title: "",
-    fullImage: "/assets/photo/2026-06-07_cddjy_DSC06893.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-07_cddjy_DSC06893.webp",
     month: "2026-06",
     date: "2026-06-07",
@@ -657,7 +631,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-06-cdcwq-dsc06827",
     title: "",
-    fullImage: "/assets/photo/2026-06-06_cdcwq_DSC06827.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-06_cdcwq_DSC06827.webp",
     month: "2026-06",
     date: "2026-06-06",
@@ -681,7 +654,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-06-cdcwq-dsc06829",
     title: "",
-    fullImage: "/assets/photo/2026-06-06_cdcwq_DSC06829.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-06_cdcwq_DSC06829.webp",
     month: "2026-06",
     date: "2026-06-06",
@@ -705,7 +677,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-06-cdcwq-dsc06832",
     title: "",
-    fullImage: "/assets/photo/2026-06-06_cdcwq_DSC06832.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-06_cdcwq_DSC06832.webp",
     month: "2026-06",
     date: "2026-06-06",
@@ -729,7 +700,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-06-cdcwq-dsc06837",
     title: "",
-    fullImage: "/assets/photo/2026-06-06_cdcwq_DSC06837.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-06_cdcwq_DSC06837.webp",
     month: "2026-06",
     date: "2026-06-06",
@@ -753,7 +723,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-05-cdcwq-dsc06808",
     title: "",
-    fullImage: "/assets/photo/2026-06-05_cdcwq_DSC06808.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-05_cdcwq_DSC06808.webp",
     month: "2026-06",
     date: "2026-06-05",
@@ -777,7 +746,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-05-cdcwq-dsc06809",
     title: "",
-    fullImage: "/assets/photo/2026-06-05_cdcwq_DSC06809.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-05_cdcwq_DSC06809.webp",
     month: "2026-06",
     date: "2026-06-05",
@@ -801,7 +769,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-05-cdcwq-dsc06811",
     title: "",
-    fullImage: "/assets/photo/2026-06-05_cdcwq_DSC06811.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-05_cdcwq_DSC06811.webp",
     month: "2026-06",
     date: "2026-06-05",
@@ -825,7 +792,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-05-cdcwq-dsc06824",
     title: "",
-    fullImage: "/assets/photo/2026-06-05_cdcwq_DSC06824.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-05_cdcwq_DSC06824.webp",
     month: "2026-06",
     date: "2026-06-05",
@@ -849,7 +815,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-06-05-myjy-dsc06804",
     title: "",
-    fullImage: "/assets/photo/2026-06-05_myjy_DSC06804.jpg",
     image: "/assets/photo/thumbs/mine/2026-06-05_myjy_DSC06804.webp",
     month: "2026-06",
     date: "2026-06-05",
@@ -874,7 +839,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-23-yx-20260523-dsc06765",
     title: "",
-    fullImage: "/assets/photo/2026-05-23_yx_20260523-DSC06765.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-23_yx_20260523-DSC06765.webp",
     month: "2026-05",
     date: "2026-05-23",
@@ -898,7 +862,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-23-yx-20260523-dsc06774",
     title: "",
-    fullImage: "/assets/photo/2026-05-23_yx_20260523-DSC06774.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-23_yx_20260523-DSC06774.webp",
     month: "2026-05",
     date: "2026-05-23",
@@ -922,7 +885,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-23-yx-20260523-dsc06789",
     title: "",
-    fullImage: "/assets/photo/2026-05-23_yx_20260523-DSC06789.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-23_yx_20260523-DSC06789.webp",
     month: "2026-05",
     date: "2026-05-23",
@@ -946,7 +908,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-16-yx-20260516-dsc06747",
     title: "",
-    fullImage: "/assets/photo/2026-05-16_yx_20260516-DSC06747.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-16_yx_20260516-DSC06747.webp",
     month: "2026-05",
     date: "2026-05-16",
@@ -970,7 +931,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-16-yx-20260516-dsc06750",
     title: "",
-    fullImage: "/assets/photo/2026-05-16_yx_20260516-DSC06750.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-16_yx_20260516-DSC06750.webp",
     month: "2026-05",
     date: "2026-05-16",
@@ -994,7 +954,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-04-yx-20260504-dsc06727",
     title: "",
-    fullImage: "/assets/photo/2026-05-04_cgx_20260504-DSC06727.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-04_cgx_20260504-DSC06727.webp",
     month: "2026-05",
     date: "2026-05-04",
@@ -1018,7 +977,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-04-cgx-20260504-dsc06731",
     title: "",
-    fullImage: "/assets/photo/2026-05-04_cgx_20260504-DSC06731.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-04_cgx_20260504-DSC06731.webp",
     month: "2026-05",
     date: "2026-05-04",
@@ -1042,7 +1000,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-04-cgx-20260504-dsc06732",
     title: "",
-    fullImage: "/assets/photo/2026-05-04_cgx_20260504-DSC06732.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-04_cgx_20260504-DSC06732.webp",
     month: "2026-05",
     date: "2026-05-04",
@@ -1066,7 +1023,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-04-cgx-20260504-dsc06741",
     title: "",
-    fullImage: "/assets/photo/2026-05-04_cgx_20260504-DSC06741.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-04_cgx_20260504-DSC06741.webp",
     month: "2026-05",
     date: "2026-05-04",
@@ -1090,7 +1046,6 @@ window.PHOTO_ITEMS = [
   {
     id: "others-summer-song-01",
     title: "",
-    fullImage: "/assets/photo/others/summer_song/A9A44FB35234E21B8778D80D3A980D61.jpg",
     image: "/assets/photo/thumbs/others/others_summer_song_01.webp",
     month: "2026-05",
     date: "2026-05-04",
@@ -1114,7 +1069,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-03-cgx-20260503-dsc06710",
     title: "",
-    fullImage: "/assets/photo/2026-05-03_cgx_20260503-DSC06710.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-03_cgx_20260503-DSC06710.webp",
     month: "2026-05",
     date: "2026-05-03",
@@ -1138,7 +1092,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-03-htq-20260503-dsc06655",
     title: "",
-    fullImage: "/assets/photo/2026-05-03_htq_20260503-DSC06655.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-03_htq_20260503-DSC06655.webp",
     month: "2026-05",
     date: "2026-05-03",
@@ -1162,7 +1115,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-03-htq-20260503-dsc06665",
     title: "",
-    fullImage: "/assets/photo/2026-05-03_htq_20260503-DSC06665.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-03_htq_20260503-DSC06665.webp",
     month: "2026-05",
     date: "2026-05-03",
@@ -1186,7 +1138,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-05-03-nzq-20260503-dsc06706",
     title: "",
-    fullImage: "/assets/photo/2026-05-03_nzq_20260503-DSC06706.jpg",
     image: "/assets/photo/thumbs/mine/2026-05-03_nzq_20260503-DSC06706.webp",
     month: "2026-05",
     date: "2026-05-03",
@@ -1210,7 +1161,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06601",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06601.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06601.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1234,7 +1184,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06602",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06602.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06602.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1258,7 +1207,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06603",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06603.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06603.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1282,7 +1230,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06622",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06622.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06622.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1306,7 +1253,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06625",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06625.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06625.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1330,7 +1276,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06631",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06631.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06631.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1354,7 +1299,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06639",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06639.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06639.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1378,7 +1322,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06644",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06644.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06644.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1402,7 +1345,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-18-xxx-20260418-dsc06647",
     title: "",
-    fullImage: "/assets/photo/2026-04-18_xxx_20260418-DSC06647.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-18_xxx_20260418-DSC06647.webp",
     month: "2026-04",
     date: "2026-04-18",
@@ -1426,7 +1368,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-04-yx-20260404-dsc06458-2",
     title: "",
-    fullImage: "/assets/photo/2026-04-04_yx_20260404-DSC06458-2.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-04_yx_20260404-DSC06458-2.webp",
     month: "2026-04",
     date: "2026-04-04",
@@ -1450,7 +1391,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-04-04-yx-20260404-dsc06460-2",
     title: "",
-    fullImage: "/assets/photo/2026-04-04_yx_20260404-DSC06460-2.jpg",
     image: "/assets/photo/thumbs/mine/2026-04-04_yx_20260404-DSC06460-2.webp",
     month: "2026-04",
     date: "2026-04-04",
@@ -1474,7 +1414,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-03-28-yx-20260328-dsc06439--",
     title: "",
-    fullImage: "/assets/photo/2026-03-28_yx_20260328-DSC06439-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-03-28_yx_20260328-DSC06439-已增强-降噪.webp",
     month: "2026-03",
     date: "2026-03-28",
@@ -1498,7 +1437,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-03-28-yx-20260328-dsc06443--",
     title: "",
-    fullImage: "/assets/photo/2026-03-28_yx_20260328-DSC06443-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-03-28_yx_20260328-DSC06443-已增强-降噪.webp",
     month: "2026-03",
     date: "2026-03-28",
@@ -1522,7 +1460,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-03-28-yx-20260328-dsc06444--",
     title: "",
-    fullImage: "/assets/photo/2026-03-28_yx_20260328-DSC06444-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-03-28_yx_20260328-DSC06444-已增强-降噪.webp",
     month: "2026-03",
     date: "2026-03-28",
@@ -1546,7 +1483,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-03-28-yx-20260328-dsc06455",
     title: "",
-    fullImage: "/assets/photo/2026-03-28_yx_20260328-DSC06455.jpg",
     image: "/assets/photo/thumbs/mine/2026-03-28_yx_20260328-DSC06455.webp",
     month: "2026-03",
     date: "2026-03-28",
@@ -1570,7 +1506,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-03-21-yx-20260321-dsc06412--",
     title: "",
-    fullImage: "/assets/photo/2026-03-21_yx_20260321-DSC06412-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-03-21_yx_20260321-DSC06412-已增强-降噪.webp",
     month: "2026-03",
     date: "2026-03-21",
@@ -1594,7 +1529,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06082",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06082.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06082.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1618,7 +1552,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06086",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06086.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06086.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1642,7 +1575,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06088",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06088.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06088.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1666,7 +1598,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06093",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06093.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06093.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1690,7 +1621,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06097--",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06097-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06097-已增强-降噪.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1714,7 +1644,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06099",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06099.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06099.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1738,7 +1667,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-02-11-yx-20260211-dsc06100",
     title: "",
-    fullImage: "/assets/photo/2026-02-11_yx_20260211-DSC06100.jpg",
     image: "/assets/photo/thumbs/mine/2026-02-11_yx_20260211-DSC06100.webp",
     month: "2026-02",
     date: "2026-02-11",
@@ -1762,7 +1690,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-01-01-yx-20260101-dsc05917--",
     title: "",
-    fullImage: "/assets/photo/2026-01-01_yx_20260101-DSC05917-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-01-01_yx_20260101-DSC05917-已增强-降噪.webp",
     month: "2026-01",
     date: "2026-01-01",
@@ -1786,7 +1713,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-01-01-yx-20260101-dsc05918--",
     title: "",
-    fullImage: "/assets/photo/2026-01-01_yx_20260101-DSC05918-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-01-01_yx_20260101-DSC05918-已增强-降噪.webp",
     month: "2026-01",
     date: "2026-01-01",
@@ -1810,7 +1736,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-01-01-yx-20260101-dsc05922--",
     title: "",
-    fullImage: "/assets/photo/2026-01-01_yx_20260101-DSC05922-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-01-01_yx_20260101-DSC05922-已增强-降噪.webp",
     month: "2026-01",
     date: "2026-01-01",
@@ -1834,7 +1759,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-01-01-yx-20260101-dsc05932--",
     title: "",
-    fullImage: "/assets/photo/2026-01-01_yx_20260101-DSC05932-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-01-01_yx_20260101-DSC05932-已增强-降噪.webp",
     month: "2026-01",
     date: "2026-01-01",
@@ -1858,7 +1782,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2026-01-01-yx-20260101-dsc05937--",
     title: "",
-    fullImage: "/assets/photo/2026-01-01_yx_20260101-DSC05937-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2026-01-01_yx_20260101-DSC05937-已增强-降噪.webp",
     month: "2026-01",
     date: "2026-01-01",
@@ -1882,7 +1805,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-12-13-yx-20251213-dsc05905",
     title: "",
-    fullImage: "/assets/photo/2025-12-13_yx_20251213-DSC05905.jpg",
     image: "/assets/photo/thumbs/mine/2025-12-13_yx_20251213-DSC05905.webp",
     month: "2025-12",
     date: "2025-12-13",
@@ -1906,7 +1828,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-08-16-yx-20250816-dsc05350--",
     title: "",
-    fullImage: "/assets/photo/2025-08-16_yx_20250816-DSC05350-已增强-降噪.jpg",
     image: "/assets/photo/thumbs/mine/2025-08-16_yx_20250816-DSC05350-已增强-降噪.webp",
     month: "2025-08",
     date: "2025-08-16",
@@ -1930,7 +1851,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-08-14-yx-20250814-dsc05327",
     title: "",
-    fullImage: "/assets/photo/2025-08-14_yx_20250814-DSC05327.jpg",
     image: "/assets/photo/thumbs/mine/2025-08-14_yx_20250814-DSC05327.webp",
     month: "2025-08",
     date: "2025-08-14",
@@ -1954,7 +1874,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-08-12-yx-20250812-dsc05306",
     title: "",
-    fullImage: "/assets/photo/2025-08-12_yx_20250812-DSC05306.jpg",
     image: "/assets/photo/thumbs/mine/2025-08-12_yx_20250812-DSC05306.webp",
     month: "2025-08",
     date: "2025-08-12",
@@ -1978,7 +1897,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-08-12-yx-20250812-dsc05307",
     title: "",
-    fullImage: "/assets/photo/2025-08-12_yx_20250812-DSC05307.jpg",
     image: "/assets/photo/thumbs/mine/2025-08-12_yx_20250812-DSC05307.webp",
     month: "2025-08",
     date: "2025-08-12",
@@ -2002,7 +1920,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-07-20-yx-20250720-dsc05273",
     title: "",
-    fullImage: "/assets/photo/2025-07-20_yx_20250720-DSC05273.jpg",
     image: "/assets/photo/thumbs/mine/2025-07-20_yx_20250720-DSC05273.webp",
     month: "2025-07",
     date: "2025-07-20",
@@ -2026,7 +1943,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-07-20-yx-20250720-dsc05275",
     title: "",
-    fullImage: "/assets/photo/2025-07-20_yx_20250720-DSC05275.jpg",
     image: "/assets/photo/thumbs/mine/2025-07-20_yx_20250720-DSC05275.webp",
     month: "2025-07",
     date: "2025-07-20",
@@ -2050,7 +1966,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-07-20-yx-20250720-dsc05277",
     title: "",
-    fullImage: "/assets/photo/2025-07-20_yx_20250720-DSC05277.jpg",
     image: "/assets/photo/thumbs/mine/2025-07-20_yx_20250720-DSC05277.webp",
     month: "2025-07",
     date: "2025-07-20",
@@ -2074,7 +1989,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-07-10-yx-20250710-dsc05267",
     title: "",
-    fullImage: "/assets/photo/2025-07-10_yx_20250710-DSC05267.jpg",
     image: "/assets/photo/thumbs/mine/2025-07-10_yx_20250710-DSC05267.webp",
     month: "2025-07",
     date: "2025-07-10",
@@ -2098,7 +2012,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-07-10-yx-20250710-dsc05268",
     title: "",
-    fullImage: "/assets/photo/2025-07-10_yx_20250710-DSC05268.jpg",
     image: "/assets/photo/thumbs/mine/2025-07-10_yx_20250710-DSC05268.webp",
     month: "2025-07",
     date: "2025-07-10",
@@ -2122,7 +2035,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-14-yx-hotelredguards",
     title: "Hotel Redguards",
-    fullImage: "/assets/photo/2025-06-14_yx_Hotel Redguards.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-14_yx_Hotel Redguards.webp",
     month: "2025-06",
     date: "2025-06-14",
@@ -2146,7 +2058,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-14-yx-kaimingtemplepagodayang",
     title: "Kaiming Temple Pagoda, Yang",
-    fullImage: "/assets/photo/2025-06-14_yx_Kaiming Temple Pagoda, Yang.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-14_yx_Kaiming Temple Pagoda, Yang.webp",
     month: "2025-06",
     date: "2025-06-14",
@@ -2170,7 +2081,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-07-yx-02walkingbridge",
     title: "Walking Bridge",
-    fullImage: "/assets/photo/2025-06-07_yx_02 Walking Bridge.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-07_yx_02 Walking Bridge.webp",
     month: "2025-06",
     date: "2025-06-07",
@@ -2194,7 +2104,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-07-yx-05lampandbird",
     title: "Lamp and bird",
-    fullImage: "/assets/photo/2025-06-07_yx_05 Lamp and bird.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-07_yx_05 Lamp and bird.webp",
     month: "2025-06",
     date: "2025-06-07",
@@ -2218,7 +2127,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-05-yx-20250605-dsc05140",
     title: "",
-    fullImage: "/assets/photo/2025-06-05_yx_20250605-DSC05140.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-05_yx_20250605-DSC05140.webp",
     month: "2025-06",
     date: "2025-06-05",
@@ -2242,7 +2150,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-05-yx-20250605-dsc05142",
     title: "",
-    fullImage: "/assets/photo/2025-06-05_yx_20250605-DSC05142.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-05_yx_20250605-DSC05142.webp",
     month: "2025-06",
     date: "2025-06-05",
@@ -2266,7 +2173,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-05-yx-20250605-dsc05152",
     title: "",
-    fullImage: "/assets/photo/2025-06-05_yx_20250605-DSC05152.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-05_yx_20250605-DSC05152.webp",
     month: "2025-06",
     date: "2025-06-05",
@@ -2290,7 +2196,6 @@ window.PHOTO_ITEMS = [
   {
     id: "2025-06-05-yx-20250605-dsc05154",
     title: "",
-    fullImage: "/assets/photo/2025-06-05_yx_20250605-DSC05154.jpg",
     image: "/assets/photo/thumbs/mine/2025-06-05_yx_20250605-DSC05154.webp",
     month: "2025-06",
     date: "2025-06-05",
